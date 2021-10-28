@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDP HTML Project </title>
+
+    <link href="Style.css" rel="Stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="payment" method="get" action="submit.js" id="payment">
+        <fieldset>
+            <h1>your details</h1>
+            <ol>
+                <li>
+                    <label for="title">Title</label>
+                    <select id="title" name="title">
+                        <option value="Mr">Mr</option>
+                        <option value="Mrs">Mrs</option>
+                        <option value="Ms">Ms</option>
+                        <option value="Dr">Dr</option>
+                        <option value="Sir">Sir</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="uname">Full Name</label>
+                    <input name="uname" id="uname" type="text" />
+                </li>
+                <li>
+                    <label for="ninumber">NI Number</label>
+                    <input name="ninumber" id="ninumber" type="text" />
+                </li>
+                <li>
+                    <label for="phone">Phone</label>
+                    <input name="phone" id="phone" type="text" />
+                </li>
+
+
+
+            </ol>
+            
+            <ol>
+                <li>
+                    <label for="address">
+                        Address</label>
+                    <textarea id="address" name="address" rows="5">default address</textarea>
+                </li>
+                <li>
+                    <label for="postcode">
+                        Postcode</label>
+                    <input id="postcode" name="postcode" type="text">
+                </li>
+                <li>
+                    <label for="country">
+                        Country</label>
+                    <input id="country" name="country" type="text">
+                </li>
+            </ol>
+            
+
+
+        </fieldset>
+    
+        
+         <fieldset>
+           
+            <ol>
+                <li>
+                    <fieldset>
+                        <legend>Department</legend>
+                        <ol>
+                            <li>
+                                <input id="finance" name="jobtype" type="radio" value="finance">
+                                <label for="finance">
+                                    Finance</label>
+                            </li>
+                            <li>
+                                <input id="hr" name="jobtype" type="radio" value="hr">
+                                <label for="hr">
+                                    HR</label>
+                            </li>
+                            <li>
+                                <input id="sales" name="jobtype" value="sales" type="radio">
+                                <label for="sales">
+                                    Sales</label>
+                            </li>
+                            <li>
+                                <input id="technology" name="cardtype" value="technology" type="radio">
+                                <label for="technology">
+                                    Technology</label>
+                            </li>
+                            <li>
+                                <input id="marketing" name="cardtype" value="marketing" type="radio">
+                                <label for="marketing">
+                                    Marketing</label>
+                            </li>
+                        </ol>
+                    </fieldset>
+                </li>
+                
+         <fieldset>
+            <button>
+                Add</button>
+        </fieldset>
+        <fieldset>
+            <button>
+                Edit</button>
+        </fieldset>
+        <fieldset>
+            <button>
+                Delete</button>
+        </fieldset>
+        </form>
+        
+
+        <script src="JavaScript.js"></script>
+    
+</body>
+</html>
